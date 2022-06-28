@@ -1,0 +1,3 @@
+This is wrote via echo command
+Wrote via cat command
+            d
