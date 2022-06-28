@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if [[ $# -ne 2 ]]; then
+	echo "There must be 2 params, no $#"
+	exit 1
+fi
+
 echo "Create a file or directory just passing as arguments [d] for directory and [f] for file and the name"
 
 if [ $1 == "d" ]; then
